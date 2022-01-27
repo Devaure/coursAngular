@@ -11,6 +11,8 @@ import { AwBlogComponent } from './components/aw-blog/aw-blog.component';
 import { AwBlogFormComponent } from './components/aw-blog-form/aw-blog-form.component';
 import { BlogArticleComponent } from './components/aw-blog-article/blog-article.component';
 import { CardComponent } from './components/aw-card/aw-card.component';
+import { CryptoMarketComponent } from './components/crypto-market/crypto-market.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { CardComponent } from './components/aw-card/aw-card.component';
     AwBlogComponent,
     AwBlogFormComponent,
     BlogArticleComponent,
-    CardComponent
+    CardComponent,
+    CryptoMarketComponent
   ],
   imports: [
     BrowserModule,
@@ -27,6 +30,7 @@ import { CardComponent } from './components/aw-card/aw-card.component';
     AwTagsModule,
     AwTabsModule,
     AwCarouselModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
