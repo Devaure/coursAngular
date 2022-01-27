@@ -1,0 +1,47 @@
+<aw-carousel [images]="slides"></aw-carousel>
+
+<div class="container">
+    <h1 #pageTitle>Angular</h1>
+
+    <aw-panel>
+        <aw-tab name="Tab 1" [selected]="true">
+            Mon content 1
+        </aw-tab>
+        <aw-tab name="Tab 2">
+            Mon content 2
+        </aw-tab>
+    </aw-panel>
+
+    <aw-tags [max]="20"></aw-tags>
+
+    <div class="blog">
+        <aw-blog></aw-blog>
+    </div>
+
+    <div class="cards">
+        <aw-card title="titre 1">
+            <header><h3>Mon Header</h3></header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolor.</p>
+            <footer><h3>Mon Footer</h3></footer>
+        </aw-card>
+
+        <aw-card title="titre 2">
+            <div class="header"></div>
+            <img src='https://source.unsplash.com/random/350x300?mountain' alt=''/>
+        </aw-card>
+
+        <aw-card title="titre 3">
+            <div class="header"></div>
+            <img src='https://source.unsplash.com/random/350x300?beach' alt=''/>
+        </aw-card>
+        <aw-card title="titre 4">
+            <div class="header"></div>
+            <img src='https://source.unsplash.com/random/350x300?city' alt=''/>
+        </aw-card>
+        <aw-card title="titre 5">
+            <div class="header"></div>
+            <img src='https://source.unsplash.com/random/350x300?landscape' alt=''/>
+        </aw-card>
+    </div>
+</div>
+
